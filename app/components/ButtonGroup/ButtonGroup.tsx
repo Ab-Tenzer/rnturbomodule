@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Button, View, TouchableOpacity, Text, Alert, Pressable } from 'react-native';
+import SwipeButton from '../SwipeButton/SwipeButton'
+
 
 import styles from './styles';
 
 const ButtonGroup: React.FC = () => {
+    const [toggleState, setToggleState] = useState(false);
+
+    const handleToggle = (value) => {
+        if (value) {
+            onPress('Four')
+        }
+        setToggleState(value);
+    }
 
     const title = 'Press me';
     const onPress = (name: string) => {
@@ -35,6 +45,11 @@ const ButtonGroup: React.FC = () => {
             >
                 <Text style={styles.textThree}>{title}</Text>
             </TouchableOpacity>
+
+            <View style={styles.separator} />
+
+            <SwipeButton onToggle={handleToggle} />
+
 
             <View style={styles.separator} />
 

@@ -32,6 +32,7 @@ It is currently running on the latest version on React Native
   - Create a central location for all colors used thoroughout the app, similar
     to what I did for the theming with the `theme-config.ts` file
   - The ButtonGroup could have also imported the various butttons from their own  locations 
+  - Create a single file with key, value pairs which will contain all the strings used across the app, makes it easier to add in translations
   
   ```js
 
