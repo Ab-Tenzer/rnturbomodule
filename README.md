@@ -20,9 +20,9 @@ It is currently running on the latest version on React Native
 <details>
   <summary>Things to note</summary>
 
-  ### TODO
-  1. Run App on Android
-     * 
+  ### What I still need to do
+  1. Run App on Android 
+     *
   2. Create Turbo Module for the native integration
      * 
 
@@ -30,10 +30,10 @@ It is currently running on the latest version on React Native
   ### There are sections I would have done differently, but could not due to time constraints
 
   - Create a central location for all colors used thoroughout the app, similar
-     to what I did for the theming with the `theme-config.ts` file
+    to what I did for the theming with the `theme-config.ts` file
+  - The ButtonGroup could have also imported the various butttons from their own  locations 
+  
   ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
+
   ```
 </details>
