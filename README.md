@@ -1,6 +1,6 @@
-# 🚀 React Native Investec Assessment - September 2022
+# 🚀 React Native Assessment - September 2022
 
-This project is uses react navigation, redux, redux logger, redux persist and redux saga,
+This project uses react navigation, redux, redux logger, redux persist and redux saga,
 as well as a bit of theming with react-native-paper. 
 
 It is currently running on the latest version on React Native
